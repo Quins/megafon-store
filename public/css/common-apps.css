@@ -1,0 +1,605 @@
+.b-appstore-article {
+
+	margin: 30px;
+	max-width: 1400px;
+	min-width: 290px;
+	font-size: 0;
+	line-height: 0;
+}
+
+.b-appstore-article-title {
+
+	padding: 0 0 25px;
+	font-family: "PFDinDisplayPro Light";
+	font-weight: 100;
+	font-size: 52px;
+	line-height: normal;
+	color: #00985f;
+}
+
+.b-appstore-navigations-section {
+
+	margin: 0 20px 0 0;
+	display: inline-block;
+	padding: 30px 10px 0 35px;
+	width: 24.9%;
+	height: 365px;
+	vertical-align: top;
+	background-color: #fff;
+	box-sizing: border-box;
+	font-family: "PFDinDisplayPro";
+}
+	.b-appstore-navigations-section-title {
+
+		display: block;
+		padding: 0 0 10px;
+		font-size: 24px;
+		line-height: 22px;
+	}
+		.b-appstore-navigations-section-platforms-collection-clause {
+
+			padding: 10px 0;
+			font-size: 16px;
+			line-height: 20px;
+		}
+			.b-appstore-navigations-section-platforms-collection-clause-field {
+
+				display: none;
+			}
+			.b-appstore-navigations-section-platforms-collection-clause-title {
+
+				position: relative;
+				margin: 0 0 0 30px;
+				cursor: pointer;
+			}
+				.b-appstore-navigations-section-platforms-collection-clause-title:before {
+
+					position: absolute;
+					content: '';
+					top: 50%;
+					left: -30px;
+					margin-top: -8px;
+					width: 16px;
+					height: 16px;
+					background: transparent url(../i/appmain/graphics-apps.png) no-repeat 0 0;
+				}
+				.b-appstore-navigations-section-platforms-collection-clause-title:after {
+
+					position: absolute;
+					content: '';
+					top: 50%;
+					left: -27px;
+					margin-top: -4px;
+					width: 0;
+					height: 8px;
+					background: transparent url(../i/appmain/graphics-apps.png) no-repeat -17px 0;
+					transition: width .5s ease;
+				}
+
+				.b-appstore-navigations-section-platforms-collection-clause-field:checked ~ .b-appstore-navigations-section-platforms-collection-clause-title:after {
+
+					width: 11px;
+					transition: width .5s ease;
+				}
+.b-appstore-article-contents {
+
+	display: inline-block;
+	width: 72.7%;
+	max-width: 1003px;
+	text-align: left;
+	vertical-align: top;
+}
+	.b-appstore-article-contents-main-section {
+
+		position: relative;
+		margin: 0 0 20px;
+		padding: 40px 0 0 275px;
+		height: 365px;
+		font-family: "PFDinDisplayPro";
+		font-weight: 100;
+		font-size: 16px;
+		line-height: 19px;
+		color: #333;
+		background-color: #fff;
+		box-sizing: border-box;
+	}
+		.b-appstore-article-contents-main-section-picture {
+
+				position: absolute;
+				top: 40px;
+				left: 30px;
+				width: 198px;
+				font-size: 0;
+				line-height: 0;
+		}
+			.b-appstore-article-contents-main-section-picture-entity  {
+
+					max-width: 100%;
+			}
+		.b-appstore-article-contents-main-section-title {
+
+			padding: 0 0 10px;
+			line-height: normal;
+
+		}
+			.b-appstore-article-contents-main-section-title-link {
+
+				font-size: 30px;
+				line-height: 22px;
+				text-decoration: none;
+				color: #008bfb;
+			}
+				.b-appstore-article-contents-main-section-title-link:hover {
+
+					text-decoration: underline;
+				}
+		.b-appstore-article-contents-main-section-description {
+
+			padding: 0 0 20px;
+		}
+		.b-appstore-article-contents-main-section-paragraph {
+
+			padding: 0 24% 20px 0;
+			line-height: normal;
+		}
+		.b-appstore-article-contents-main-section-trivias-collection {
+
+			padding: 0 24% 0 40px;
+		}
+			.b-appstore-article-contents-main-section-trivias-collection-clause {
+
+					position: relative;
+					padding: 5px 0;
+					line-height: 20px;
+				}
+					.b-appstore-article-contents-main-section-trivias-collection-clause:after {
+
+						position: absolute;
+						content: "\2013";
+						left: -20px;
+						top: 5px;
+					}
+
+	.b-appstore-article-contents-apps-collection {
+
+		margin: 0 -10px;
+	}
+		.b-appstore-article-contents-apps-collection-clause {
+
+			display: inline-block;
+			padding: 0 0 20px;
+			width: 25%;
+			vertical-align: top;
+		}
+			.b-appstore-article-contents-apps-collection-clause-link {
+
+				display: block;
+				margin: 0 10px;
+				padding: 35px 0 15px 0;
+				height: auto;
+				background-color: #fff;
+				box-sizing: border-box;
+				text-decoration: none;
+				color: #008bfb;
+				cursor: pointer;
+			}
+				.b-appstore-article-contents-apps-collection-clause-link:hover {
+
+					box-shadow: 0px 0px 5px 0px rgba(0, 0, 1, 0.5);
+				}
+				.b-appstore-article-contents-apps-collection-picture {
+
+					margin: 0 0 55px;
+					padding: 0 8.5% 0 8.5%;
+					width: 100%;
+					font-size: 0;
+					line-height: 0;
+					text-align: center;
+					box-sizing: border-box;
+				}
+					.b-appstore-article-contents-apps-collection-picture-entity {
+
+						max-width: 100%;
+					}
+				.b-appstore-article-contents-apps-collection-clause-title {
+
+					padding: 0 0 10px 20px;
+					font-size: 19px;
+					line-height: 22px;
+				}
+				.b-appstore-article-contents-apps-collection-clause-platforms-description {
+
+					padding: 0 0 20px 20px;
+					font-size: 14px;
+					line-height: 19px;
+					color: #333;
+				}
+.b-apps-ratings-section {
+
+	position: relative;
+}
+	.b-apps-ratings-section-description {
+
+		position: relative;
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+		border-right: 30px solid transparent;
+		margin: 5px 0;
+	}
+		.b-apps-ratings-section-description-picture {
+
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+		.b-apps-ratings-section-description-occupancy-picture {
+
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			background: transparent url(../i/appmain/stars-green.png) no-repeat 0 0;
+			background-size: cover;
+		}
+		.b-apps-ratings-section-entity {
+
+			display: block;
+			width: 20px;
+			font-size: 14px;
+			line-height: 20px;
+			position: absolute;
+			top: 50%;
+			right: 0;
+			color: #333;
+			margin: -10px 0 0;
+		}
+	.b-appstore-article-contents-main-section .b-apps-ratings-section {
+
+		position: absolute;
+		padding: 0;
+		left: 45px;
+		top: 260px;
+		line-height: 30px;
+	}
+	.b-appstore-article-contents-main-section .b-apps-ratings-section-description {
+
+		height: 24px;
+		width: 146px;
+	}
+	.b-appstore-article-contents-main-section  .b-apps-ratings-section-description-occupancy-picture {
+
+		max-width: 146px;
+		height: 24px;
+	}
+	.b-appstore-article-contents-main-section  .b-apps-ratings-section-entity {
+
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+
+@media screen and (max-width: 1160px) {
+
+	.b-appstore-article-title {
+
+		padding: 0 0 20px;
+		font-size: 40px;
+	}
+	.b-appstore-navigations-section {
+
+		margin: 0 15px 0 0;
+		padding: 25px 10px 0 25px;
+		height: 295px;
+	}
+		.b-appstore-navigations-section-title {
+
+			font-size: 19px;
+			line-height: 23px;
+		}
+		.b-appstore-navigations-section-platforms-collection-clause {
+
+			font-size: 14px;
+			line-height: 15px;
+		}
+	.b-appstore-article-contents-main-section {
+
+		margin: 0 0 15px;
+		padding: 30px 0 0 225px;
+		height: 295px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+		.b-appstore-article-contents-main-section-title {
+
+			padding: 0;
+		}
+
+			.b-appstore-article-contents-main-section-title-link {
+
+				font-size: 21px;
+				line-height:25px;
+			}
+			.b-appstore-article-contents-main-section-description {
+
+				padding: 0 0 10px;
+			}
+			.b-appstore-article-contents-main-section-paragraph {
+
+				padding: 0 9% 10px 0;
+			}
+
+			.b-appstore-article-contents-main-section-trivias-collection {
+
+				padding: 0 9% 0 30px;
+			}
+			.b-appstore-article-contents-main-section-picture {
+
+				top: 35px;
+				width: 145px;
+			}
+		.b-appstore-article-contents-main-section .b-apps-ratings-section {
+
+			top: 192px;
+		}
+		.b-apps-ratings-section-description,
+		.b-appstore-article-contents-main-section .b-apps-ratings-section-description {
+
+			height: 16px;
+			width: 100px;
+		}
+		.b-apps-ratings-section-description-occupancy-picture,
+		.b-appstore-article-contents-main-section .b-apps-ratings-section-description-occupancy-picture {
+
+			max-width: 100px;
+			height: 16px;
+		}
+
+		.b-appstore-article-contents-apps-collection {
+
+			margin: 0 -8px;
+		}
+			.b-appstore-article-contents-apps-collection-clause {
+
+				padding: 0 0 15px;
+				width: 33.3%;
+			}
+				.b-appstore-article-contents-apps-collection-clause-link {
+
+					margin: 0 8px;
+					padding: 30px 0 15px 0;
+				}
+					.b-appstore-article-contents-apps-collection-picture {
+
+						margin: 0 0 45px;
+					}
+
+				.b-appstore-article-contents-apps-collection-clause-title {
+
+					padding: 0 0 5px 15px;
+					font-size: 18px;
+					line-height: 22px;
+				}
+				.b-appstore-article-contents-apps-collection-clause-platforms-description {
+
+					padding: 0 0 10px 15px;
+					font-size: 13px;
+					line-height: 22px;
+				}
+				.b-apps-ratings-section {
+
+					padding: 0 0 0 15px;
+				}
+}
+@media screen and (max-width: 960px) {
+
+	.b-appstore-article-title {
+
+		font-size: 32px;
+		line-height: normal;
+	}
+	.b-appstore-navigations-section {
+
+		display: block;
+		margin: 0 0 15px;
+		padding: 25px 10px 20px 25px;
+		width: 100%;
+		height: auto;
+	}
+	.b-appstore-navigations-section-platforms-collection {
+
+		padding: 5px 0;
+	}
+		.b-appstore-navigations-section-platforms-collection-inside {
+
+			display: inline-block;
+			width: 33.3%;
+		}
+			.b-appstore-navigations-section-platforms-collection-clause {
+
+				padding: 5px 0;
+			}
+	.b-appstore-article-contents {
+
+		display: block;
+		width:100%;
+	}
+		.b-appstore-article-contents-main-section {
+
+			padding: 35px 0 20px 235px;
+			height: auto;
+		}
+		.b-appstore-article-contents-main-section-paragraph {
+
+			padding: 0 8% 10px 0;
+
+		}
+		.b-appstore-article-contents-main-section-picture {
+
+			left: 40px;
+		}
+}
+
+@media screen and (max-width: 600px) {
+
+	.b-appstore-article {
+
+		margin: 15px;
+	}
+
+	.b-appstore-navigations-section {
+
+		padding: 0;
+		margin: 0 0 15px;
+	}
+		.b-appstore-navigations-section-title {
+
+			position: relative;
+			padding: 14px 0 14px 20px;
+			font-size: 14px;
+			line-height: 19px;
+			color: #028cfb;
+			border: 1px solid #c7c9ca;
+			cursor: pointer;
+		}
+			.b-appstore-navigations-section-title:before {
+
+				position: absolute;
+				content: "";
+				top: 50%;
+				margin-top: -3px;
+				right: 20px;
+				width: 12px;
+				height: 6px;
+				background: transparent url('../i/appmain/graphics-apps.png') no-repeat -17px -9px;
+			}
+			.b-appstore-navigations-section-platforms-collection {
+
+				display: none;
+				margin: -1px 0 0;
+				padding: 10px 0 10px 20px;
+				border: 1px solid #c7c9ca;
+			}
+				.b-appstore-navigations-section-platforms-collection-inside {
+
+					display: block;
+					width: 100%;
+				}
+		#navToggle:checked ~ .b-appstore-navigations-section-title:before {
+
+			background-position: -17px -16px;
+		}
+		#navToggle:checked ~ .b-appstore-navigations-section-platforms-collection {
+
+			display: block;
+		}
+
+
+	.b-appstore-article-contents-main-section {
+
+		position: relative;
+		margin: 0 0 10px;
+		padding: 15px 10px 15px 130px;
+		height: 160px;
+		border-bottom: 25px solid #fff;
+		overflow: hidden;
+	}
+		.b-appstore-article-contents-main-section:after {
+
+			position: absolute;
+			bottom: 0;
+			right: 7px;
+			content: '\2003\2003\2003\2003\2003\2003\2003\2003\2003';
+			line-height: 14px;
+			font-size: 14px;
+			background: linear-gradient(to right, transparent, #fff);
+
+		}
+
+		.b-appstore-article-contents-main-section-picture {
+
+			top: 15px;
+			left: 20px;
+			width: 90px;
+		}
+		.b-appstore-article-contents-main-section .b-apps-ratings-section {
+
+			left: 20px;
+			top: 112px;
+		}
+			.b-apps-ratings-section-description,
+			.b-appstore-article-contents-main-section .b-apps-ratings-section-description {
+
+				height: 12px;
+				width: 72px;
+			}
+			.b-apps-ratings-section-description-occupancy-picture,
+			.b-appstore-article-contents-main-section .b-apps-ratings-section-description-occupancy-picture {
+
+				max-width: 72px;
+				height: 12px;
+			}
+			.b-apps-ratings-section-entity,
+			.b-appstore-article-contents-main-section .b-apps-ratings-section-entity {
+
+				font-size: 12px;
+				line-height: 12px;
+			}
+		.b-appstore-article-contents-apps-collection {
+
+			margin: 0 -5px;
+		}
+			.b-appstore-article-contents-apps-collection-clause {
+
+				padding: 0 0 10px;
+				width: 50%;
+			}
+				.b-appstore-article-contents-apps-collection-clause-link {
+
+					margin: 0 5px;
+					padding: 15px 0 0;
+				}
+				.b-appstore-article-contents-apps-collection-clause-title {
+
+					font-size: 14px;
+					line-height:19px;
+				}
+				.b-appstore-article-contents-apps-collection-clause-platforms-description {
+
+					padding: 0 0 0 15px;
+					font-size: 12px;
+					line-height: 12px;
+				}
+
+}
+@media screen and (max-width: 450px) {
+
+	.b-appstore-article-contents-main-section {
+
+		padding: 15px 8px 0 130px;
+		border-bottom: 20px solid #fff;
+	}
+
+		.b-appstore-article-contents-main-section-title {
+
+			line-height: normal;
+		}
+			.b-appstore-article-contents-main-section-title-link {
+
+
+				font-size: 14px;
+				line-height: normal;
+			}
+		.b-appstore-article-contents-main-section-description {
+
+			font-size: 10px;
+			line-height: 19px;
+		}
+		.b-appstore-article-contents-main-section-paragraph {
+
+			padding: 0 0 25px;
+			font-size: 12px;
+			line-height: normal;
+		}
+}

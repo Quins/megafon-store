@@ -1,0 +1,522 @@
+.rublesign {
+
+	display: inline-block;
+	position: relative;
+}
+
+	.rublesign:before {
+
+		content: "\2013";
+		position: absolute;
+		top: 8%;
+		left: 0;
+	}
+
+.b-devices-menu {
+
+	text-align: center;
+	border-bottom: 1px solid #cacccd;
+	line-height: 45px;
+	padding: 20px 0 10px;
+}
+
+	.b-devices-menu-clause {
+
+		display: inline-block;
+		vertical-align: top;
+		font-size: 30px;
+		padding: 0 20px;
+	}
+
+		.b-devices-menu-clause-link {
+
+			display: block;
+			text-decoration: none;
+			color: #000;
+			padding: 0 20px;
+			margin: 0 -20px;
+			position: relative;
+		}
+
+		.b-devices-menu-current-clause-link {
+
+			color: #00985f;
+		}
+
+			.b-devices-menu-current-clause-link:after {
+
+				content: "";
+				display: block;
+				position: absolute;
+				width: 20px;
+				height: 11px;
+				bottom: -11px;
+				left: 50%;
+				margin: 0 0 0 -10px;
+				background: url(../i/devices-store/menu-current.png) 0 0 no-repeat;
+			}
+
+		.b-devices-menu-clause-link:hover {
+
+			color: #00985f;
+		}
+
+.b-devices-previews-collection {
+
+	padding: 30px 0 30px 260px;
+	white-space: normal;
+}
+
+	.b-devices-previews-collection-filter-section {
+
+		width: 260px;
+		float: left;
+		margin-left: -260px;
+	}
+
+.b-devices-filter-form {
+
+	display: block;
+	border: 1px solid #cacccd;
+	padding: 20px;
+	margin: 0 0 30px;
+}
+
+	.b-devices-filter-form-fieldset {
+
+		white-space: normal;
+	}
+
+	.b-devices-filter-form-select-fieldset {
+
+		padding: 0 0 30px;
+		position: relative;
+	}
+
+		.b-devices-filter-form-select-fieldset-title {
+
+			display: block;
+			border: 1px solid #cacccd;
+			padding: 15px 20px;
+			line-height: 20px;
+			font-size: 16px;
+			color: #008cff;
+			background: transparent;
+			margin: 0;
+			border-radius: 0;
+			position: relative;
+		}
+
+			.b-devices-filter-form-select-fieldset-title:hover {
+
+				cursor: pointer;
+			}
+
+			.b-devices-filter-form-select-fieldset-title:after {
+
+				content: "";
+				display: block;
+				position: absolute;
+				width: 12px;
+				height: 6px;
+				top: 50%;
+				right: 20px;
+				margin: -3px 0 0;
+				background: url(../i/devices-store/select-down-arrow.png) no-repeat 0 0;
+			}
+
+			.b-devices-filter-form-select-fieldset-opened-title:after {
+
+				background-image: url(../i/devices-store/select-up-arrow.png);
+			}
+
+		.b-devices-filter-form-select-fieldset-input {
+
+			display: block;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			border: 1px solid #cacccd;
+			background: #fff;
+			margin: -31px 0 0;
+		}
+
+			.b-devices-filter-form-select-fieldset-input-option {
+
+				display: block;
+				border-bottom: 1px solid #cacccd;
+				padding: 15px 20px;
+				line-height: 20px;
+				font-size: 16px;
+				margin: 0 0 -1px;
+			}
+
+			.b-devices-filter-form-select-fieldset-input-entity {
+
+				display: none;
+			}
+
+		.b-devices-filter-form-fieldset-title {
+
+			font-size: 24px;
+			line-height: 30px;
+			padding: 0 0 20px;
+		}
+
+		.b-devices-filter-form-checkbox-input {
+
+			display: inline-block;
+			white-space: nowrap;
+			width: 50%;
+			line-height: 35px;
+			height: 35px;
+		}
+		.b-devices-filter-form-checkbox-input:hover {
+
+			cursor: pointer;
+		}
+
+			.b-devices-filter-form-checkbox-input:before {
+
+				content: "";
+				width: 18px;
+				height: 18px;
+				margin: 0 10px 0 0;
+				border: 1px solid #cacccd;
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			.b-devices-filter-form-checkbox-input-entity:checked + .b-devices-filter-form-checkbox-input:before {
+
+				background: #00985f;
+			}
+
+			.b-devices-filter-form-checkbox-input-inside {
+
+				display: inline-block;
+				white-space: normal;
+				vertical-align: middle;
+				line-height: 16px;
+				font-size: 12px;
+				box-sizing: border-box;
+				max-width: 100%;
+				padding: 0 0 0 30px;
+				margin: 0 0 0 -30px;
+			}
+
+.b-devices-previews-collection-banner-section {
+
+	border: 1px solid #cacccd;
+	min-height: 120px;
+	text-align: center;
+	line-height: 120px;
+	font-size: 20px;
+}
+
+.b-reduced-devices-article {
+
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 30px 30px;
+	box-sizing: border-box;
+	width: 240px;
+	height: 340px;
+	border: 1px solid #cacccd;
+	padding: 10px 15px 15px;
+	position: relative;
+	transition: .3s;
+}
+.b-reduced-devices-article:hover {
+
+	box-shadow: 0 0 8px rgba(0,0,0,.3);
+	transition: .3s;
+}
+
+	.b-reduced-devices-article-labels-collection {
+
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: -18px;
+		left: -1px;
+		height: 17px;
+		line-height: 17px;
+	}
+
+		.b-reduced-devices-article-labels-collection-clause {
+
+			display: inline-block;
+			padding: 0 10px;
+			margin: 0 5px 0 0;
+			color: #fff;
+			background: #000;
+			font-size: 11px;
+			text-transform: uppercase;
+		}
+
+		.b-reduced-devices-article-labels-collection-offer-clause {
+
+			background: #57068c;
+		}
+
+		.b-reduced-devices-article-labels-collection-arrival-clause {
+
+			background: #00adef;
+		}
+
+		.b-reduced-devices-article-labels-collection-4g-clause {
+
+			background: #00985f;
+		}
+
+	.b-reduced-devices-article-link {
+
+		display: block;
+		text-decoration: none;
+		color: #333;
+	}
+
+	.b-reduced-devices-article-title {
+
+		display: block;
+		font-size: 16px;
+		line-height: 20px;
+		height: 60px;
+		white-space: normal;
+		overflow: hidden;
+		position: relative;
+	}
+
+		.b-reduced-devices-article-title:after {
+
+			content: "";
+			display: block;
+			line-height: 20px;
+			width: 40px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			background: transparent;
+			background:    -moz-linear-gradient(left, transparent 0%, #fff 100%);
+			background:        -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(100%, #fff));
+			background: -webkit-linear-gradient(left, transparent 0%, #fff 100%);
+			background:      -o-linear-gradient(left, transparent 0%, #fff 100%);
+			background:     -ms-linear-gradient(left, transparent 0%, #fff 100%);
+			background:         linear-gradient(to right, transparent 0%, #fff 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=1 );
+		}
+
+	.b-reduced-devices-article-picture {
+
+		height: 180px;
+		line-height: 180px;
+		text-align: center;
+		position: relative;
+		padding: 10px 0 20px;
+	}
+
+		.b-reduced-devices-article-picture-entity {
+
+			display: inline-block;
+			max-width: 100%;
+			max-height: 100%;
+			vertical-align: middle;
+			width: auto;
+			height: auto;
+		}
+
+		.b-reduced-devices-article-picture-badge {
+
+			position: absolute;
+			top: 0;
+			left: 50%;
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+			margin: 8px 0 0 8px;
+			padding: 7px;
+			background: #f68c45;
+			border-radius: 37px;
+			color: #fff;
+			text-align: center;
+			white-space: normal;
+		}
+
+			.b-reduced-devices-article-picture-badge-contents {
+
+				display: inline-block;
+				font-size: 14px;
+				line-height: normal;
+				vertical-align: middle;
+			}
+
+	.b-reduced-devices-article-buy-table {
+
+		border-collapse: collapse;
+		border-spacing: none;
+		border: none;
+		width: 100%;
+	}
+
+		.b-reduced-devices-article-buy-table-row {
+
+			border: none;
+		}
+
+			.b-reduced-devices-article-buy-table-column {
+
+				border: none;
+				vertical-align: middle;
+			}
+
+	.b-reduced-devices-article-price-section {
+
+		display: block;
+		float: left;
+		color: #00985f;
+		font-size: 19px;
+		line-height: 23px;
+		clear: both;
+	}
+
+	.b-reduced-devices-article-additional-price-section {
+
+		display: block;
+		float: left;
+		color: #000;
+		font-size: 19px;
+		line-height: 23px;
+		clear: both;
+	}
+
+	.b-reduced-devices-article-price-description {
+
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		margin: 7px 0 0 5px;
+		position: relative;
+	}
+
+		.b-reduced-devices-article-price-description-toggle-link {
+
+			display: block;
+			width: 28px;
+			height: 28px;
+			line-height: 28px;
+			border: 2px solid #008bfb;
+			text-align: center;
+			border-radius: 16px;
+			font-size: 16px;
+			text-decoration: none;
+			color: #008bfb;
+		}
+
+		.b-reduced-devices-article-price-description-toggle-link:hover {
+
+			background: #008bfb;
+			color: #fff;
+		}
+
+		.b-reduced-devices-article-price-description-contents {
+
+			position: absolute;
+			left: 50%;
+			bottom: 48px;
+			width: 330px;
+			padding: 20px 25px;
+			margin: 0 0 0 -190px;
+			background: #fff;
+			box-shadow: 0 0 16px rgba(0,0,0,.3);
+			text-align: left;
+			z-index: 1;
+		}
+
+			.b-reduced-devices-article-price-description-contents:before {
+
+				content: "";
+				position: absolute;
+				left: 50%;
+				bottom: -20px;
+				width: 0;
+				height: 0;
+				margin: 0 0 0 -10px;
+				border-width: 10px;
+				border-style: solid;
+				border-color: #fff transparent transparent;
+			}
+
+		.b-reduced-devices-article-price-description-contents h3 {
+
+			font-size: 14px;
+			line-height: 28px;
+			font-weight: bold;
+		}
+
+		.b-reduced-devices-article-price-description-contents > dl {}
+
+			.b-reduced-devices-article-price-description-contents > dl > dt {
+
+				display: inline-block;
+				width: 100%;
+				padding: 0 65px 0 0;
+				margin: 0 -60px 0 0;
+				box-sizing: border-box;
+				font-size: 14px;
+				line-height: 28px;
+			}
+
+			.b-reduced-devices-article-price-description-contents > dl > dd {
+
+				display: inline-block;
+				width: 60px;
+				font-size: 14px;
+				line-height: 28px;
+				text-align: right;
+			}
+
+		.b-reduced-devices-article-price-description-contents > hr {
+
+			border: none;
+			border-bottom: 2px dashed #000;
+			margin: 10px 0;
+		}
+
+		.b-reduced-devices-article-price-description-contents strong {
+
+			font-weight: bold;
+		}
+
+		.b-reduced-devices-article-price-description-contents-more {
+
+			text-align: right;
+		}
+
+		.b-reduced-devices-article-price-description-contents a {
+
+			color: #008bfb;
+			font-size: 14px;
+			line-height: 28px;
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+		}
+
+		.b-reduced-devices-article-price-description-contents a:hover {
+
+			border-bottom-color: #008bfb;
+		}
+
+	.b-reduced-devices-article-purchase-button {
+
+		display: block;
+		padding: 10px;
+		background: #57068c;
+		color: #fff;
+		text-decoration: none;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+	}
+

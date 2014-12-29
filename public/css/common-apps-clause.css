@@ -1,0 +1,331 @@
+.b-apps-article-title {
+
+	padding: 0 0 30px;
+	font-family: "PFDinDisplayPro";
+	font-size: 60px;
+	line-height: normal;
+	color: #00985f;
+}
+
+.b-apps-article-preamble-section {
+
+	position: relative;
+	padding: 30px;
+	margin: 0 -30px 0 0;
+	background-color: #f3f3f3;
+}
+
+	.b-apps-article-preamble-section-aside {
+
+		display: block;
+		float: left;
+		width: 200px;
+		padding: 0 10px;
+		max-width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.b-apps-article-preamble-section-picture {
+
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 0 0 15px;
+	}
+
+	.b-apps-article-preamble-section .b-apps-article-preamble-section-ratings {
+
+		position: static;
+		text-align: left;
+	}
+
+	.b-apps-article-preamble-section-contents {
+
+		padding: 20px 0 20px 250px;
+	}
+
+	.b-apps-article-preamble-section .b-apps-ratings-section-title,
+	.b-apps-article-preamble-section .b-apps-personal-ratings-section-title ,
+	.b-apps-article-preamble-section-paragraph {
+
+		font-family: "PFDinDisplayPro";
+		font-size: 16px;
+		line-height: 20px;
+		color: #333;
+	}
+
+	.b-app-article-preamble-section-downloads-desktop-collection {
+			padding: 20px 0;
+	}
+		.b-apps-article-preamble-section-downloads-desktop-collection-title,
+		.b-apps-article-preamble-section-form-title {
+
+			display: block;
+			padding: 0 0 10px;
+			font-family: "PFDinDisplayPro";
+			font-size: 19px;
+			line-height:22px;
+		}
+		.b-apps-article-preamble-section-downloads-desktop-collection-clause-link {
+
+			display: inline-block;
+			padding: 15px 32px;
+			font-family: "PFDinDisplayPro";
+			font-size: 16px;
+			line-height: 20px;
+			text-decoration: none;
+			color: #fff;
+			background-color: #56068b;
+		}
+	.b-apps-article-preamble-section-form {
+
+		display: inline-block;
+	}
+		.b-apps-article-preamble-section-form-field {
+
+			display: inline-block;
+			margin: 0 10px 0 0;
+			padding: 15px 14px;
+			width: 180px;
+			font-family: "PFDinDisplayPro";
+			font-size: 16px;
+			line-height: 20px;
+			background-color: #fff;
+			border: 1px solid #b2b2b2;
+		}
+		.b-apps-article-preamble-section-form-link {
+
+			display: inline-block;
+			margin: 0 30px 0 0;
+			padding: 15px 30px;
+			font-family: "PFDinDisplayPro";
+			font-size: 16px;
+			line-height: 20px;
+			border: 1px solid #d9d9d9;
+			box-shadow: 0 1px 1px #cfcfcf;
+		}
+	.b-apps-article-preamble-section-sharing-link {
+
+		position: relative;
+		display: inline-block;
+		padding: 0 26px 0 0;
+		font-family: "PFDinDisplayPro";
+		font-size: 19px;
+		line-height: 23px;
+		text-decoration: none;
+		color: #008afa;
+	}
+		.b-apps-article-preamble-section-sharing-link:hover {
+
+			border-bottom: 1px solid #008afa;
+		}
+		.b-apps-article-preamble-section-sharing-link:after {
+
+			position: absolute;
+			content: '';
+			top: 50%;
+			margin-top: -3px;
+			right: 0;
+			width: 12px;
+			height: 6px;
+			background: transparent url('../goods/i/appmain/graphics-apps.png') no-repeat -17px -16px;
+		}
+	.b-apps-article-preamble-section-downloads-mobile-collection {
+
+		display: none;
+	}
+	.b-apps-article-preamble-section .b-apps-ratings-section {
+
+		margin: 30px 0 15px;
+	}
+	.b-apps-article-preamble-section .b-apps-ratings-section-entity {
+
+		margin: 0;
+	}
+
+.b-apps-personal-ratings-section {
+
+	position: relative;
+}
+
+	.b-apps-personal-ratings-section-title {
+
+		font-family: "PFDinDisplayPro";
+		font-size: 16px;
+		line-height: 20px;
+		color: #333;
+	}
+
+	.b-apps-personal-ratings-section-description {
+
+		display: inline-block;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0 30px 0 0;
+		margin: 5px 0;
+		vertical-align: top;
+	}
+
+		.b-apps-personal-ratings-section-description-star-link {
+
+			display: inline-block;
+			width: 18%;
+			height: 0;
+			padding: 17% 1% 0;
+			background: url(../i/star-unselected.png) no-repeat 50% 50%;
+			background-size: contain;
+		}
+
+		.b-apps-personal-ratings-section-description-star-selected-link {
+
+			background-image: url(../i/star-selected.png);
+		}
+
+		.b-apps-personal-ratings-section-description:hover .b-apps-personal-ratings-section-description-star-link {
+
+			background-image: url(../i/star-selected.png);
+		}
+
+		.b-apps-personal-ratings-section-description:hover .b-apps-personal-ratings-section-description-star-link:hover ~ .b-apps-personal-ratings-section-description-star-link {
+
+			background-image: url(../i/star-unselected.png);
+		}
+
+	.b-apps-personal-ratings-section-entity {
+
+		display: block;
+		position: absolute;
+		top: 50%;
+		right: 0;
+		width: 20px;
+		text-align: left;
+		font-size: 14px;
+		color: #333;
+		line-height: 20px;
+		margin: -1px 0 0;
+		vertical-align: top;
+	}
+
+.b-apps-article-decription-section {
+
+	font-size: 16px;
+	line-height: 20px;
+	padding: 10px 0;
+	max-width: 700px;
+}
+
+	.b-apps-article-decription-section-title {
+
+		font-size: 30px;
+		line-height: 46px;
+		padding: 25px 0 20px;
+	}
+
+	.b-apps-article-decription-section p, 
+	.b-apps-article-decription-section-paragraph {
+
+		padding: 0 0 20px;
+	}
+
+.b-apps-article-previews-section {}
+
+	.b-apps-article-previews-section-title {
+
+		font-size: 30px;
+		line-height: 46px;
+		padding: 25px 0 20px;
+	}
+
+.b-apps-article-previews-section-screenshots-collection {
+
+	white-space: nowrap;
+	height: 500px;
+	padding: 40px 20px 50px;
+	background: #f3f3f3;
+	overflow: auto;
+}
+
+	.b-apps-article-previews-section-screenshots-collection-clause {
+
+		display: inline-block;
+		vertical-align: top;
+		height: 100%;
+		padding: 0 20px;
+	}
+
+		.b-apps-article-previews-section-screenshots-collection-clause-link {
+
+			display: block;
+		}
+
+		.b-apps-article-previews-section-screenshots-collection-clause-picture {
+
+			display: block;
+			border: 1px solid #dadada;
+			box-shadow: 0 10px 10px -5px #dadada;
+		}
+
+.b-apps-article-otherapps-section {}
+
+	.b-apps-article-otherapps-section-title {
+
+		font-size: 30px;
+		line-height: 46px;
+		padding: 25px 0 20px;
+	}
+
+.b-apps-article-otherapps-section .b-appstore-article-contents-apps-collection-clause-link {
+
+	border: 1px solid #dadada;
+}
+
+@media (max-width: 1260px) {
+
+	.b-apps-article-preamble-section-aside {
+
+		width: 150px;
+		padding: 0 10px;
+	}
+
+	.b-apps-article-preamble-section-contents {
+
+		padding: 20px 0 20px 180px;
+	}
+
+	.b-apps-article-preamble-section-form-field {
+
+		width: 130px;
+		padding: 10px;
+	}
+
+	.b-apps-article-preamble-section-form-link {
+
+		padding: 10px 20px;
+	}
+
+	.b-apps-article-preamble-section-sharing-link {
+
+		font-size: 16px;
+	}
+
+}
+
+@media (max-width: 1160px) {
+
+}
+
+@media (max-width: 780px) {
+
+
+}
+
+@media (max-width: 640px) {
+
+
+}
+
+
+
+
+

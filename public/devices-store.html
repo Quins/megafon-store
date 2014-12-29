@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="utf-8">
+	<title>МегаФон</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+	<meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="./css/innovations.css" media="all">
+	<link rel="stylesheet" type="text/css" href="./css/devices-store.css" media="all">
+	<script type="text/javascript" src="./js/html5ie.js"></script>
+	<!--[if lt IE 9]><script src="./js/mediaqueries.js"></script><![endif]-->
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/common.js"></script>
+</head>
+<body>
+
+	<div class="l-content">
+
+		<section class="l-content-section l-content-articles-section">
+
+			<ul class="b-devices-menu">
+				<li class="b-devices-menu-clause b-devices-menu-previous-clause g-portable">
+					<a href="#" class="b-devices-menu-clause-link">Все устройства 4g+(LTE)</a>
+				</li>
+				<li class="b-devices-menu-clause b-devices-menu-current-clause">
+					<a href="#" class="b-devices-menu-clause-link b-devices-menu-current-clause-link">Смартфоны</a>
+				</li>
+				<li class="b-devices-menu-clause">
+					<a href="#" class="b-devices-menu-clause-link">Планшеты</a>
+				</li>
+				<li class="b-devices-menu-clause">
+					<a href="#" class="b-devices-menu-clause-link">Модемы/Роутеры</a>
+				</li>
+				<li class="b-devices-menu-clause">
+					<a href="#" class="b-devices-menu-clause-link">Все устройства 4G+(LTE)</a>
+				</li>
+				<li class="b-devices-menu-clause b-devices-menu-next-clause g-portable">
+					<a href="#" class="b-devices-menu-clause-link">Планшеты</a>
+				</li>
+			</ul>
+
+			<div class="b-devices-previews-collection g-cleared">
+
+				<aside class="b-devices-previews-collection-filter-section">
+					<form action="GET" class="b-devices-filter-form">
+						<fieldset class="b-devices-filter-form-select-fieldset">
+							<h2 class="b-devices-filter-form-select-fieldset-title" data-toggle="true" data-toggle-descriptor="devices-price-sort" data-toggle-target="true" data-toggle-target-descriptor="devices-price-sort" data-toggle-target-class="b-devices-filter-form-select-fieldset-opened-title">Сортировать по цене</h2>
+							<div class="b-devices-filter-form-select-fieldset-input g-hidden" data-toggle-target="true" data-toggle-target-descriptor="devices-price-sort" data-toggle-target-class="g-hidden">
+								<label class="b-devices-filter-form-select-fieldset-input-option"><input type="radio" name="sort" value="asc" class="b-devices-filter-form-select-fieldset-input-entity">По возрастанию</label>
+								<label class="b-devices-filter-form-select-fieldset-input-option"><input type="radio" name="sort" value="desc" class="b-devices-filter-form-select-fieldset-input-entity">По убыванию</label>
+							</div>
+						</fieldset>
+						<a href="#" class="b-devices-filter-form-toggle-link g-portable">Фильтр</a>
+						<fieldset class="b-devices-filter-form-fieldset">
+							<h2 class="b-devices-filter-form-fieldset-title">Производитель:</h2>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-megafon">
+							<label for="manufacturer-megafon" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Мегафон</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-nokia">
+							<label for="manufacturer-nokia" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Nokia</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-alcatel">
+							<label for="manufacturer-alcatel" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Alcatel</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-samsung">
+							<label for="manufacturer-samsung" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Samsung</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-apple">
+							<label for="manufacturer-apple" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Apple</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-sony">
+							<label for="manufacturer-sony" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Sony</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-asus">
+							<label for="manufacturer-asus" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Asus</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-zte">
+							<label for="manufacturer-zte" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">ZTE</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-fly">
+							<label for="manufacturer-fly" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Fly</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-tonino-lamborghini">
+							<label for="manufacturer-tonino-lamborghini" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Tonino Lamborghini</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-htc">
+							<label for="manufacturer-htc" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">HTC</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-asus">
+							<label for="manufacturer-asus" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">ASUS</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-lenovo">
+							<label for="manufacturer-lenovo" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Lenovo</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-lg">
+							<label for="manufacturer-lg" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">LG</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-highscreen">
+							<label for="manufacturer-highscreen" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Highscreen</span></label>
+							<input type="checkbox" class="b-devices-filter-form-checkbox-input-entity g-hidden" id="manufacturer-micromax">
+							<label for="manufacturer-micromax" class="b-devices-filter-form-checkbox-input"><span class="b-devices-filter-form-checkbox-input-inside">Micromax</span></label>
+						</fieldset>
+					</form>
+
+					<div class="b-devices-previews-collection-banner-section">Баннер тут</div>
+				</aside>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+								<div class="b-reduced-devices-article-additional-price-section">+ 630 <span class="rublesign">Р</span></div>
+								<div class="b-reduced-devices-article-price-description">
+									<a href="#" class="b-reduced-devices-article-price-description-toggle-link" data-tooltip="true" data-tooltip-descriptor="price-description" data-tooltip-contents='<h3>Стоимость комплекта:</h3><dl><dt>Смартфон МегаФон Optima (белый)</dt><dd>1 990 <span class="rublesign">Р</span></dd></dl><dl><dt>Опция "Интернет XS" на несколько месяцев</dt><dd>630 <span class="rublesign">Р</span></dd></dl><hr><dl><dt>ИТОГО</dt><dd><strong>2 620 <span class="rublesign">Р</span></strong></dd></dl>' data-tooltip-link='<a href="#">Подробные условия акции...</a>'>?</a>
+									<div data-tooltip-target="true" data-tooltip-target-descriptor="price-description"></div>
+								</div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+								<div class="b-reduced-devices-article-additional-price-section">+ 630 <span class="rublesign">Р</span></div>
+								<div class="b-reduced-devices-article-price-description">
+									<a href="#" class="b-reduced-devices-article-price-description-toggle-link" data-tooltip="true" data-tooltip-descriptor="price-description" data-tooltip-contents='<h3>Стоимость комплекта:</h3><dl><dt>Смартфон МегаФон Optima (белый)</dt><dd>1 990 <span class="rublesign">Р</span></dd></dl><dl><dt>Опция "Интернет XS" на несколько месяцев</dt><dd>630 <span class="rublesign">Р</span></dd></dl><hr><dl><dt>ИТОГО</dt><dd><strong>2 620 <span class="rublesign">Р</span></strong></dd></dl>' data-tooltip-link='<a href="#">Подробные условия акции...</a>'>?</a>
+									<div data-tooltip-target="true" data-tooltip-target-descriptor="price-description"></div>
+								</div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+								<div class="b-reduced-devices-article-additional-price-section">+ 630 <span class="rublesign">Р</span></div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+								<div class="b-reduced-devices-article-additional-price-section">+ 630 <span class="rublesign">Р</span></div>
+								<div class="b-reduced-devices-article-price-description">
+									<a href="#" class="b-reduced-devices-article-price-description-toggle-link" data-tooltip="true" data-tooltip-descriptor="price-description" data-tooltip-contents='<h3>Стоимость комплекта:</h3><dl><dt>Смартфон МегаФон Optima (белый)</dt><dd>1 990 <span class="rublesign">Р</span></dd></dl><dl><dt>Опция "Интернет XS" на несколько месяцев</dt><dd>630 <span class="rublesign">Р</span></dd></dl><hr><dl><dt>ИТОГО</dt><dd><strong>2 620 <span class="rublesign">Р</span></strong></dd></dl>' data-tooltip-link='<a href="#">Подробные условия акции...</a>'>?</a>
+									<div data-tooltip-target="true" data-tooltip-target-descriptor="price-description"></div>
+								</div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+								<div class="b-reduced-devices-article-additional-price-section">+ 630 <span class="rublesign">Р</span></div>
+								<div class="b-reduced-devices-article-price-description">
+									<a href="#" class="b-reduced-devices-article-price-description-toggle-link" data-tooltip="true" data-tooltip-descriptor="price-description" data-tooltip-contents='<h3>Стоимость комплекта:</h3><dl><dt>Смартфон МегаФон Optima (белый)</dt><dd>1 990 <span class="rublesign">Р</span></dd></dl><dl><dt>Опция "Интернет XS" на несколько месяцев</dt><dd>630 <span class="rublesign">Р</span></dd></dl><hr><dl><dt>ИТОГО</dt><dd><strong>2 620 <span class="rublesign">Р</span></strong></dd></dl>' data-tooltip-link='<a href="#">Подробные условия акции...</a>'>?</a>
+									<div data-tooltip-target="true" data-tooltip-target-descriptor="price-description"></div>
+								</div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="b-reduced-devices-article">
+					<ul class="b-reduced-devices-article-labels-collection">
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-offer-clause">Акция</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-arrival-clause">Новинка</li>
+						<li class="b-reduced-devices-article-labels-collection-clause b-reduced-devices-article-labels-collection-4g-clause">4G</li>
+					</ul>
+					<a href="#" class="b-reduced-devices-article-link">
+						<h1 class="b-reduced-devices-article-title">Смартфон МегаФон Optima (белый) + опция "Интернет XS" наименование устройства слишком длинное, чтобы уместиться в отведённое пространство</h1>
+						<div class="b-reduced-devices-article-picture">
+							<img src="./i/devices-store/device-small.png" alt="" class="b-reduced-devices-article-picture-entity">
+							<div class="b-reduced-devices-article-picture-badge">
+								<span class="b-reduced-devices-article-picture-badge-contents">2 000 рублей на счёт</span>
+							</div>
+						</div>
+					</a>
+					<table class="b-reduced-devices-article-buy-table">
+						<tr class="b-reduced-devices-article-buy-table-row">
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-price-column">
+								<div class="b-reduced-devices-article-price-section">31 990 <span class="rublesign">Р</span></div>
+							</td>
+							<td class="b-reduced-devices-article-buy-table-column b-reduced-devices-article-buy-table-purchase-column">
+								<a href="#" class="b-reduced-devices-article-purchase-button">Купить</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+
+			</div>
+		</section>
+	</div>
+</body>
+</html>
