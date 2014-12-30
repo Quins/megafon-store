@@ -28,6 +28,20 @@ $(document).ready(function() {
 			hideOnOutsideClick: true, 
 			showOn: "click", 
 			stickOn: "click"
+		}, 
+		"badge-description": {
+			template: '<div class="b-tooltips-article">%contents%<div class="b-tooltips-article-links">%link%</div></div>', 
+			hideOnOutsideClick: true, 
+			showOn: "hover", 
+			stickOn: "hover"
+		}, 
+		"offer-description": {
+			template: '<div class="b-tooltips-article">%contents%</div>', 
+			showOn: "hover"
+		}, 
+		"device-tooltip": {
+			template: '<div class="b-tooltips-article b-tooltips-quick-article">%contents%</div>', 
+			showOn: "hover"
 		}
 	})
 
@@ -525,7 +539,8 @@ function hurlRotator(rotatorID, articleCounter) {
 				if (toggle.properties.activationCondition && !toggle.properties.activationCondition())
 					return false;
 
-				event.preventDefault();
+				if (!$(this).data("toggle-act-default")) 
+					event.preventDefault();
 
 				$.each(toggle.targets, function(i, e) {
 
@@ -613,9 +628,12 @@ function hurlRotator(rotatorID, articleCounter) {
 			/*
 			Tooltip will be spawned inside sibling 
 			with data-tooltip-target attribute and 
-			proper descriptor, or else inside this.
+			proper descriptor, or else inside this. 
+			Target position is also set up to relative, 
+			if it equals to static. 
 			*/
-			tooltip.target = (tooltip.descriptor !== "" ? ($(this).siblings("[data-tooltip-target][data-tooltip-target-descriptor='" + tooltip.descriptor + "']") || $(this)) : $(this));
+			tooltip.target = (tooltip.descriptor !== "" ? ($(this).siblings("[data-tooltip-target][data-tooltip-target-descriptor='" + tooltip.descriptor + "']").length ? $(this).siblings("[data-tooltip-target][data-tooltip-target-descriptor='" + tooltip.descriptor + "']") : $(this)) : $(this));
+			if (tooltip.target.css("position") === "static") tooltip.target.css("position", "relative");
 
 			tooltip.properties = $.extend({
 				hideOnOutsideClick: true, 
@@ -672,9 +690,11 @@ function hurlRotator(rotatorID, articleCounter) {
 			*/
 			$(this).unbind("hover").hover( function(e) {
 
-				if (tooltip.entity && tooltip.properties.showOn === "hover") {
+				if (tooltip.entity && !tooltip.visible && tooltip.properties.showOn === "hover") {
 
+					$("body").trigger($.Event("hideAllTooltips", { except: tooltip.descriptor }));
 					if (tooltip.properties.stickOn === "hover") tooltip.sticky = true;
+					if (tooltip.properties.hideOnOutsideClick) $(document).unbind("mouseup", attachOutsideClick).unbind("touchend", attachOutsideClick).on("mouseup touchend", attachOutsideClick);
 					tooltip.visible = true;
 					tooltip.target.append(tooltip.entity);
 				}
@@ -685,6 +705,19 @@ function hurlRotator(rotatorID, articleCounter) {
 					tooltip.visible = false;
 					tooltip.entity.detach();
 				}
+			});
+
+			$("body").on("hideAllTooltips", function(event) {
+
+				if (event.except) {
+					if (event.except instanceof Array && event.except.indexOf(tooltip.descriptor) >= 0) return false;
+
+					if (event.except instanceof String && event.except === tooltip.descriptor) return false;
+				}
+
+				tooltip.entity.detach();
+				tooltip.visible = false;
+				tooltip.sticky = false;
 			});
 
 			/*
