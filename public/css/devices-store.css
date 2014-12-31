@@ -532,6 +532,11 @@
 	margin: 0 0 0 30px;
 }
 
+.b-devices-filter-form-toggle-link {
+
+	display: none;
+}
+
 @media (max-width: 1479px) {
 
 .b-devices-previews-collection {
@@ -560,6 +565,12 @@
 			.b-devices-filter-form-select-fieldset-title:after {
 
 				right: 15px;
+			}
+
+			.b-devices-filter-form-select-fieldset-input-option {
+
+				padding: 15px;
+				font-size: 14px;
 			}
 
 		.b-devices-filter-form-fieldset-title {
@@ -614,14 +625,277 @@
 
 }
 
+@media (max-width: 1000px) {
 
-@media (max-width: 480px) {
+.b-devices-menu {
+
+	line-height: 25px;
+	position: relative;
+	margin: 0 -20px;
+}
+
+	.b-devices-menu-clause {
+
+		font-size: 21px;
+		display: none;
+	}
+
+	.b-devices-menu-current-clause {
+
+		display: inline-block;
+	}
+
+	.b-devices-menu-previous-clause {
+
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		padding: 20px 20px 0;
+	}
+
+		.b-devices-menu-previous-clause .b-devices-menu-clause-link {
+
+		}
+
+			.b-devices-menu-previous-clause .b-devices-menu-clause-link:before {
+
+				content: "<";
+				color: #cacccd;
+				display: inline-block;
+				margin: 0 10px 0 0;
+			}
+
+	.b-devices-menu-next-clause {
+
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 20px 20px 0;
+	}
+
+		.b-devices-menu-next-clause .b-devices-menu-clause-link {
+
+		}
+
+			.b-devices-menu-next-clause .b-devices-menu-clause-link:after {
+
+				content: ">";
+				color: #cacccd;
+				display: inline-block;
+				margin: 0 0 0 10px;
+			}
+
+}
+
+
+@media (max-width: 780px) {
+
+.b-devices-menu {
+
+	line-height: 60px;
+	margin: 15px -20px 0;
+	padding: 0;
+}
+
+	.b-devices-menu:before {
+
+		content: "";
+		position: absolute;
+		top: -15px;
+		height: 15px;
+		background: #e6e6e6;
+		left: 0;
+		right: 0;
+	}
+
+	.b-devices-menu-previous-clause {
+
+		padding: 0 15px;
+	}
+
+		.b-devices-menu-previous-clause .b-devices-menu-clause-link {
+
+			text-indent: -9999px;
+			padding: 0;
+			margin: 0;
+			width: 30px;
+		}
+
+			.b-devices-menu-previous-clause .b-devices-menu-clause-link:before {
+
+				position: absolute;
+				top: 0;
+				left: 0;
+				margin: 0;
+				text-indent: 0;
+			}
+
+	.b-devices-menu-next-clause {
+
+		padding: 0 15px;
+	}
+
+		.b-devices-menu-next-clause .b-devices-menu-clause-link {
+
+			text-indent: -9999px;
+			padding: 0;
+			margin: 0;
+			width: 30px;
+		}
+
+			.b-devices-menu-next-clause .b-devices-menu-clause-link:after {
+
+				position: absolute;
+				top: 0;
+				right: 0;
+				margin: 0;
+				text-indent: 0;
+			}
+
+	.b-devices-menu-current-clause-link:after {
+
+		bottom: -1px;
+	}
+
+.b-devices-previews-collection {
+
+	margin: 0 -20px;
+	padding: 0 0 15px;
+	background: #e6e6e6;
+}
+
+	.b-devices-previews-collection-filter-section {
+
+		float: none;
+		margin: 0 0 30px;
+		width: auto;
+		padding: 15px;
+		background: #fff;
+	}
+
+	.b-devices-filter-form {
+
+		margin: 0;
+	}
+
+	.b-devices-previews-collection-banner-section {
+
+		display: none;
+	}
+
+	.b-devices-filter-form-select-fieldset {
+
+		padding: 0;
+	}
+
+		.b-devices-filter-form-select-fieldset-title {
+
+			padding: 15px 35px 15px 15px;
+		}
+
+		.b-devices-filter-form-select-fieldset-input {
+
+			position: static;
+			margin: -1px 0 0;
+		}
+
+	.b-devices-filter-form-toggle-link {
+
+		display: block;
+		padding: 15px 35px 15px 15px;
+		line-height: 17px;
+		font-size: 14px;
+		border: 1px solid #cacccd;
+		color: #008cff;
+		background: transparent;
+		margin: -1px 0 0;
+		border-radius: 0;
+		position: relative;
+		text-decoration: none;
+	}
+
+		.b-devices-filter-form-toggle-link:after {
+
+			content: "";
+			display: block;
+			position: absolute;
+			width: 12px;
+			height: 6px;
+			top: 50%;
+			right: 15px;
+			margin: -3px 0 0;
+			background: url(../i/devices-store/select-down-arrow.png) no-repeat 0 0;
+		}
+
+	.b-devices-filter-form-manufacturer-fieldset {
+
+		display: none;
+	}
+
+	.b-devices-filter-form-manufacturer-opened-fieldset {
+
+		display: block;
+		border: 1px solid #cacccd;
+		padding: 20px;
+		margin: -1px 0 0;
+	}
+
+	.b-devices-filter-form-fieldset-title {
+
+		font-size: 14px;
+	}
+
+	.b-devices-filter-form-checkbox-input {
+
+		width: 50%;
+	}
+
+		.b-devices-filter-form-checkbox-input-inside {
+
+			font-size: 14px;
+		}
 
 .b-reduced-devices-article {
 
 	margin: 0 0 30px;
 	width: 100%;
 	padding: 15px;
+	border: none;
+	background: #fff;
+}
+
+.b-devices-previews-collection .b-loading-section {
+
+	margin: 0 0 15px;
+	background: #fff;
+}
+
+.b-devices-previews-collection .b-error-section {
+
+	margin: 0 0 15px;
+	background: #fff;
+}
+
+.b-tooltips-article {
+
+	display: none;
+}
+
+}
+
+
+@media (max-width: 640px) {
+
+.b-devices-menu {
+
+	margin: 15px -15px 0;
+}
+
+.b-devices-previews-collection {
+
+	margin: 0 -15px;
 }
 
 }
